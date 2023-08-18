@@ -1,0 +1,90 @@
+[
+  {
+    "label": "UI Components",
+    "key": "ui",
+    "components": [
+      {
+        "name": "hail-adminlte-3",
+        "command": "composer require 'hail812/yii2-adminlte3=~1.1'",
+        "source": "https://github.com/hail812/yii2-adminlte3"
+      },
+      {
+        "name": "kartik-select2",
+        "command": "composer require kartik-v/yii2-widget-select2 'dev-master'",
+        "source": "https://demos.krajee.com/widget-details/select2"
+      },
+      {
+        "name": "kartik-depdrop",
+        "command": "composer require kartik-v/yii2-widget-depdrop 'dev-master'",
+        "source": "https://demos.krajee.com/widget-details/depdrop"
+      },
+      {
+        "name": "kartik-datepicker",
+        "command": "composer require kartik-v/yii2-widget-datepicker 'dev-master'",
+        "source": "https://demos.krajee.com/widget-details/datepicker"
+      },
+      {
+        "name": "kartik-datepicker",
+        "command": "composer require kartik-v/yii2-widget-datetimepicker 'dev-master'",
+        "source": "https://demos.krajee.com/widget-details/datetimepicker"
+      },
+      {
+        "name": "kartik-datepicker",
+        "command": "composer require kartik-v/yii2-widget-daterangepicker 'dev-master'",
+        "source": "https://demos.krajee.com/widget-details/daterangepicker"
+      },
+      {
+        "name": "full-calendar",
+        "command": "composer require philippfrenzel/yii2fullcalendar '*'",
+        "source": "https://github.com/philippfrenzel/yii2fullcalendar"
+      }
+    ]
+  },
+  {
+    "label": "Utilities",
+    "key": "utils",
+    "components": [
+      {
+        "name": "js-register",
+        "command": "composer require richardfan1126/yii2-js-register '*'",
+        "source": "https://github.com/richardfan1126/yii2-js-register"
+      },
+      {
+        "name": "mpdf",
+        "command": "composer require mpdf/mpdf",
+        "source": "https://github.com/mpdf/mpdf"
+      },
+      {
+        "name": "pagination",
+        "command": "composer require yidas/pagination",
+        "source": "https://github.com/yidas/php-pagination"
+      },
+      {
+        "name": "spreadsheet",
+        "command": "composer require phpoffice/phpspreadsheet",
+        "source": "https://github.com/PHPOffice/PhpSpreadsheet"
+      }
+    ]
+  },
+  {
+    "label": "Auth",
+    "key": "auth",
+    "components": [
+      {
+        "name": "yii-admin",
+        "command": "composer.phar require mdmsoft/yii2-admin '~2.0'",
+        "source": "https://github.com/mdmsoft/yii2-admin"
+      },
+      {
+        "name": "yii-oauth",
+        "command": "composer require --prefer-dist filsh/yii2-oauth2-server '*'",
+        "source": "https://github.com/filsh/yii2-oauth2-server"
+      },
+      {
+        "name": "firebase-jwt",
+        "command": "composer require firebase/php-jwt",
+        "source": "https://github.com/firebase/php-jwt"
+      }
+    ]
+  }
+]

@@ -1,9 +1,9 @@
 import React from "react";
 import TextareaAtom from "../atoms/TextareaAtom";
 
-function ComposerCommandsTextareaOrganism({ commands, onCommandsChange }) {
+function ComposerCommandsTextareaOrganism({ commands, onCommandsChange, onCommandsClick }) {
   return (
-    <div className="group-textarea mt-1">
+    <div className="group-textarea mt-3">
       <label className="label-textarea">Composer Commands</label>
       <TextareaAtom
         id="composerCommands"
@@ -11,6 +11,7 @@ function ComposerCommandsTextareaOrganism({ commands, onCommandsChange }) {
         cols="60"
         value={commands}
         onChange={onCommandsChange}
+        onClick={onCommandsClick}
       />
       {/* ... */}
     </div>

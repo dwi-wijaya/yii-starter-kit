@@ -120,6 +120,7 @@ function TablePage() {
       onCommandsChange={(e) => {}}
       onReset={handleReset}
       onCopy={handleCopy}
+      onCommandsClick={handleCopy}
     />
   );
 }

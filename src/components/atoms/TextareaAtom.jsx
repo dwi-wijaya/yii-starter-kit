@@ -1,6 +1,6 @@
 import React from "react";
 
-function TextareaAtom({ id, rows, cols, value, onChange }) {
+function TextareaAtom({ id, rows, cols, value, onChange, onClick }) {
   return (
     <textarea
       id={id}
@@ -9,6 +9,8 @@ function TextareaAtom({ id, rows, cols, value, onChange }) {
       className="form-control"
       value={value}
       onChange={onChange}
+      onClick={onClick}
+      readOnly
     ></textarea>
   );
 }

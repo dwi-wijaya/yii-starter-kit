@@ -18,6 +18,7 @@ function TableTemplate({
   onCommandsChange,
   onReset,
   onCopy,
+  onCommandsClick,
 }) {
   return (
     <div>
@@ -42,6 +43,7 @@ function TableTemplate({
         <ComposerCommandsTextareaOrganism
           commands={commands}
           onCommandsChange={onCommandsChange}
+          onCommandsClick={onCommandsClick}
         />
         <ButtonGroupOrganism
           onReset={onReset}

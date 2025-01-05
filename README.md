@@ -1,35 +1,48 @@
-# Yii Starter Kit with React and Vite
+# Yii Starter Kit Generator
 
-![Preview](https://scrnli.com/data/7/71/71d/71df/71df6/71df6d/71df6dfc15dea8d632c31b4b41f608e5ae08e373113226b05e6dfaa5c2323eac/e883348ad06a1110f.png)
-
-**Demo:** [https://yii-starter-kit.vercel.app/](https://yii-starter-kit.vercel.app/)
-
-Welcome to the Yii Starter Kit, powered by React and Vite!
-
-This project aims to simplify Yii2 application setup by allowing you to choose between Yii2 Basic and Advanced templates during installation. Additionally, you can select optional packages to include in your project right from the start. The installation process is streamlined using Composer for Yii2.
-
-[Repository Link](https://github.com/11Dwiwijaya/yii-starter-kit)
-
-## Technologies Used
-- **Frontend:** React
-- **Build Tool:** Vite
-
+**Yii Starter Kit** is a simple web application designed to help developers quickly create a starter project for Yii2 with customizable templates. Users can generate a basic or advanced template by selecting the necessary dependencies. The generated command is displayed on the interface, allowing users to easily copy the `composer` command and get started with their Yii2 project.
 
 ## Features
-- Choose between Yii2 Basic and Advanced templates during setup.
-- Select optional packages to include.
-- Faster development with Vite's efficient build process.
-- Leverage the power of React for dynamic UI.
 
-## Getting Started
-Follow these steps to get started with the Yii Starter Kit:
+- Select project name and template (Basic/Advanced).
+- Auto-generate the corresponding `composer` command.
+- Copy the generated command directly to the clipboard.
+- Built using **Vite**, **React**, and **Bootstrap** for a fast and responsive frontend.
 
-1. Clone or fork the repository.
-2. Choose the Yii2 template and optional packages.
-3. Run Composer to set up the project.
-4. Launch the development server using Vite.
-5. Start building your Yii2 application with React and Vite!
+## Technologies Used
 
-Detailed instructions can be found in the [repository's Wiki](https://github.com/11Dwiwijaya/yii-starter-kit/wiki).
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A modern build tool for fast development and bundling.
+- **Bootstrap**: A popular CSS framework for building responsive layouts.
+- **Clipboard API**: For copying generated commands to the clipboard.
 
-Feel free to contribute, report issues, and improve this starter kit. Happy coding!
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dwiwijaya/yii-starter-kit.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd yii-starter-kit
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and go to `http://localhost:3000`.
+
+## Usage
+
+- Select your desired project name and template (Basic/Advanced).
+- Choose the dependencies.
+- Copy the generated `composer` command and use it to set up your Yii2 project.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+\
